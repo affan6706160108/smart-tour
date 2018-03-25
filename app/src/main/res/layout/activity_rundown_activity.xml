@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.d3ifcool.smarttour.rundown_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rundown_tour"
+            android:textAlignment="center"
+            android:textColor="#26A69A"
+            android:textSize="25sp"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:id="@+id/foto_imgView"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:background="@android:color/darker_gray"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/cariGambar_imgView"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_foto_rundown"
+            android:textColor="#ffffff"
+            android:background="#26A69A"
+            android:textSize="12sp"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:textColor="#ffffff"
+            android:background="#26A69A"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+</LinearLayout>
